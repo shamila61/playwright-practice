@@ -17,3 +17,6 @@ test('Should sort products by price from high to low', async ({ page }) => {
   // 4. Assert that the most expensive item ($49.99) is now at the top
   expect(firstProductPrice).toBe('$49.99');
 });
+
+
+
